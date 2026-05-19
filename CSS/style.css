@@ -1,15 +1,4 @@
-/*navigation for all pages*/
-/* Navbar brand text */
-.navbar-brand span {
-    font-size: 1.3rem;
-}
-
-.navbar-brand small {
-    font-size: 0.75rem;
-}
-
-/* Style for home page*/
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,6 +10,14 @@ body {
     background-color: #f8f9fa;
 }
 
+/* Navbar brand text */
+.navbar-brand span {
+    font-size: 1.3rem;
+}
+
+.navbar-brand small {
+    font-size: 0.75rem;
+}
 
 /* HERO SECTION */
 .hero {
@@ -32,7 +29,7 @@ body {
 }
 
 .hero img {
-    display: none; 
+    display: none; /* hide your image (we use background instead) */
 }
 
 .hero h2 {
@@ -83,8 +80,7 @@ section h3 {
 /* Dish cards layout */
 .dish-card {
     display: inline-block;
-    width: 100%;
-    height:350;
+    width: 300px;
     margin: 15px;
     background: white;
     border-radius: 10px;
@@ -113,7 +109,7 @@ section h3 {
     color: #555;
 }
 
-/* Footer for all pages */
+/* Footer */
 footer {
     margin-top: 40px;
 }
