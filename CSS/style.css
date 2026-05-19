@@ -348,3 +348,77 @@ button.btn:hover {
         padding: 20px;
     }
 }
+/* =======================
+   CONTACT PAGE
+======================= */
+
+/* Section styling */
+.contact-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Table styling */
+.contact-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table rows */
+.contact-section th,
+.contact-section td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Table headings */
+.contact-section th {
+    width: 40%;
+    color: #333;
+}
+
+/* Table rows separator */
+.contact-section tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Highlight rows on hover */
+.contact-section tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Add some spacing for multi-line text */
+.contact-section td br {
+    margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 15px;
+    }
+
+    .contact-section th,
+    .contact-section td {
+        display: block;
+        width: 100%;
+    }
+
+    .contact-section th {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
+
