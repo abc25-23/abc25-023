@@ -167,7 +167,41 @@ h2.text-center {
     text-decoration: underline;
     text-decoration-color: #28a745;
     text-underline-offset: 10px;
+}/* Gallery Page Specific Styling */
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: #2c3e50;
+    font-weight: bold;
 }
+
+/* Using CSS Grid for a modern, responsive gallery */
+.Gallery {
+    display: grid;
+    /* This creates a fluid grid that wraps based on screen size */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling the images within the gallery */
+.Gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Ensures images don't look stretched */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+/* Hover effect to make the gallery interactive */
+.Gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3) !important;
+}
+
 
 /* Footer Styling */
 footer {
