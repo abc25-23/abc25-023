@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tsholo's Kitchen Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/style.css"
+     <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <hl>Sit back and enjoy the moment.
-        Welcome to Tsholo's kitchen.</hl>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <!-- Logo and Motto -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="images/logo.png" width="70" height="70" class="me-3 rounded-circle">
+            <div class="d-flex flex-column">
+                <span class="fw-bold">Tsholo's Kitchen</span>
+                <small class="text-white-50 fst-italic">Good Food, Good Vibes, Good memories</small>
+            </div>
+        </a>
+
+        <!-- Hamburger Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact us.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    </header>
+    <main>
+        <section class="hero">
+<img src="images/restaurant exterior.jpg" alt="restaurant exterior" width="1000px" height="600px"><br>
+    <h2>Welcome to Tsholo's kitchen.</hl>
+        <p>Commited to providing authentic, high-quality meals that celebrate our heritage while offering a warm, welcoming environment for all our guests.</p>
+   <p>Enjoy the finest dining available in town where every taste feels like home.</p><br>
+   
+    <a href="reservation.html" class="btn btn-primary btn-lg px-5 me-3 cta-reserve">Book A Table</a>
+    <a href="menu.html" class="btn btn-outline-light btn-lg px-5 cta-menu">View Our Menu</a>
+        </section>
+        <section="featured dishes">
+            <h3>Featured dishes</h3>
+
+            <div class="dish-card">
+                <img src="images/burger,chips and CocaCola.jpg" alt="burger and chips" width="300px" height="250px">
+                <h4>Burger and Chips</h4>
+                <p>Burger with lettuce,bacon and cheese between and chips serverd with mild sauce and a 100ml drink</p>
+            </div>
+
+             <div class="dish-card">
+                <img src="images/rice,quarter chicken and coleslow.jpg" alt="Rice and chicken" width="300px" height="250px">
+                <h4>rice and chicken</h4>
+                <p>Rice and chicken P19.9</p>
+            </div>
+
+             <div class="dish-card">
+                <img src="images/Pap , boer wors and braii.jpg" alt="Pap" width="300px" height="250px">
+                <h4>Pap and braii</h4>
+                <p>Pap serverd with boer wors and a braii beef P35.95 </p>
+            </div>
+        </section>
+       <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p>&copy; 2026 Tsholo's Kitchen. All rights reserved.</p>
+        
+        <!-- Social Media Icons -->
+        <div class="social-icons mt-2">
+            <a href="https://facebook.com" class="text-white mx-2" target="_blank"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a>
+            <a href="https://instagram.com" class="text-white mx-2" target="_blank"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></a>
+            <a href="https://twitter.com" class="text-white mx-2" target="_blank"><i class="bi bi-twitter-x" style="font-size: 1.5rem;"></i></a>
+            <a href="https://whatsapp.com" class="text-white mx-2" target="_blank"><i class="bi bi-whatsapp" style="font-size: 1.5rem;"></i></a>
+            <a href="https://tiktok.com" class="text-white mx-2" target="_blank"><i class="bi bi-tiktok" style="font-size: 1.5rem;"></i></a>
+        </div>
+    </div>
+</footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="JS/script.js"></script>
 </body>
+
 </html>
