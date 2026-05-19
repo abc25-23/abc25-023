@@ -134,3 +134,83 @@ footer {
     }
 }
 
+/* ABOUT SECTION */
+.about-section{
+    padding: 50px 20px;
+    background-color: #FFF8E7;
+}
+
+.about-section h1{
+    text-align: center;
+    color: #4E342E;
+    margin-bottom: 30px;
+}
+
+.content-block{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.story-text-wrapper h2,
+.story-text-wrapper h3{
+    color: #C97B36;
+    margin-bottom: 15px;
+}
+
+.story-text-wrapper p{
+    line-height: 1.7;
+    color: #444;
+}
+
+/* TEAM SECTION */
+.team-section{
+    padding: 50px 20px;
+}
+
+.section-title{
+    text-align: center;
+    color: #4E342E;
+    margin-bottom: 30px;
+}
+
+/* TEAM GRID */
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* TEAM CARD */
+.team-card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.team-card:hover{
+    transform: translateY(-5px);
+}
+
+.team-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team-card h5{
+    margin-top: 15px;
+    color: #4E342E;
+}
+
+.team-card p{
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
