@@ -29,7 +29,9 @@ body {
     transform: none !important;
 }
 
-
+.navbar-brand{
+    transition: none !important;
+}
 
 /* HERO SECTION */
 .hero {
