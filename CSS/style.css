@@ -680,3 +680,13 @@ body{
         font-size: 2rem;
     }
 }
+/*About us image background*/
+.story-text{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../images/restaurant\interior.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    border-radius: 0;
+}
