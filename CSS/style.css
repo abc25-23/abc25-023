@@ -145,5 +145,103 @@ footer {
     .dish-card {
         width: 90%;
     }
+}/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap');
+
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9f5e9);
+    color: #333;
 }
+
+/* Headings */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #2e7d32;
+}
+
+h4 {
+    font-weight: 600;
+    color: #1b5e20;
+}
+
+h6 {
+    font-weight: 500;
+}
+
+/* Menu Container */
+.container-fluid {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Menu Items */
+.d-flex {
+    gap: 12px;
+}
+
+/* Responsive Images */
+.d-flex img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Zoom Effect */
+.d-flex img:hover {
+    transform: scale(1.1);
+}
+
+/* Add hover effect on each item */
+.d-flex:hover {
+    background-color: #f1f8f4;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+/* Prices */
+.text-muted {
+    font-size: 0.9rem;
+    color: #388e3c !important;
+}
+
+/* Navbar enhancement */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles Border */
+.border-success {
+    border-color: #66bb6a !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .d-flex img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Smooth Animations */
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+
 
