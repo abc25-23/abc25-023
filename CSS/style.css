@@ -328,7 +328,7 @@ body{
 
 /* SECTION STYLING */
 .reservation-section{
-    background-color: #ffffff
+    background-color: sand;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -479,7 +479,7 @@ body{
 .feedback-section{
     max-width: 850px;
     margin: 50px auto;
-    background-color: #ffffff;
+    background-color: sand;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
