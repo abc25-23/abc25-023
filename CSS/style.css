@@ -328,9 +328,7 @@ body{
 
 /* SECTION STYLING */
 .reservation-section{
-    background-color: #ffffff;
-    background-img:url('images/White\Balsamic\Vinaigrette.jpg');
-    background-size:cover;
+    background-color: #ffffff
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
