@@ -19,20 +19,32 @@ body {
 .navbar-brand small {
     font-size: 0.75rem;
 }
-/* REMOVE HOVER EFFECT FROM LOGO */
-.navbar-brand:hover{
-    transform: none !important;
-    box-shadow: none !important;
-    background-color: #b22222; /* keep same color if needed */
-}
-.navbar-brand img:hover{
-    transform: none !important;
-}
 
+/* STATIC LOGO */
 .navbar-brand{
     transition: none !important;
+    transform: none !important;
 }
 
+/* STOP HOVER EFFECT */
+.navbar-brand:hover{
+    transform: none !important;
+    scale: 1 !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+/* STOP IMAGE MOVEMENT */
+.navbar-brand img{
+    transition: none !important;
+    transform: none !important;
+}
+
+/* STOP IMAGE HOVER */
+.navbar-brand img:hover{
+    transform: none !important;
+    scale: 1 !important;
+}
 /* HERO SECTION */
 .hero {
     text-align: center;
