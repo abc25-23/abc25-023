@@ -325,7 +325,7 @@ h1{
 
 /* SECTION STYLING */
 .reservation-section{
-    background-color:black+gold;
+    background-color:gold;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -336,7 +336,7 @@ h1{
 /* HEADINGS */
 .reservation-section h2{
     text-align: center;
-    color: #4E342E;
+    color: blue;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 10px;
@@ -476,7 +476,7 @@ body{
 .feedback-section{
     max-width: 850px;
     margin: 50px auto;
-    background-color: black+gold;
+    background-color:gold;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
