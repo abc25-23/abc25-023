@@ -541,7 +541,7 @@ body{
 }
 
 /* BUTTON */
-.feedback-section .btn-success{
+.btn-success{
     background-color: #C97B36 !important;
     border: none !important;
     padding: 12px 25px;
@@ -551,7 +551,7 @@ body{
 }
 
 /* BUTTON HOVER */
-.feedback-section .btn-success:hover{
+.btn-success:hover{
     background-color: #a85f24 !important;
     transform: scale(1.03);
 }
@@ -680,4 +680,4 @@ body{
         font-size: 2rem;
     }
 }
-/*About us image background*/
+
