@@ -322,13 +322,10 @@ h1{
 
 /*styling for reservation*/
 /* RESERVATION PAGE */
-body{
-    background-color: #FFF8E7;
-}
 
 /* SECTION STYLING */
 .reservation-section{
-    background-color: sand;
+    background-color: burnt orange;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -479,7 +476,7 @@ body{
 .feedback-section{
     max-width: 850px;
     margin: 50px auto;
-    background-color: sand;
+    background-color: burnt orange;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
