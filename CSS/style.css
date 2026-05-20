@@ -449,3 +449,100 @@ body{
         margin-top: 10px;
     }
 }
+
+/* FEEDBACK PAGE ONLY */
+.feedback-section{
+    max-width: 850px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* HEADING */
+.feedback-section h2{
+    text-align: center;
+    color: #4E342E;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* PARAGRAPH */
+.feedback-section p{
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* LABELS */
+.feedback-section .form-label{
+    color: #4E342E;
+    font-weight: 600;
+}
+
+/* INPUTS AND TEXTAREA */
+.feedback-section .form-control{
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+/* INPUT FOCUS */
+.feedback-section .form-control:focus{
+    border-color: #C97B36;
+    box-shadow: 0 0 5px rgba(201,123,54,0.5);
+}
+
+/* RATING TITLE */
+.feedback-section h5{
+    color: #4E342E;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* RADIO BUTTON AREA */
+.feedback-section .rating-group{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* RADIO LABELS */
+.feedback-section .form-check-label{
+    color: #444;
+    font-weight: 500;
+}
+
+/* BUTTON */
+.feedback-section .btn-success{
+    background-color: #C97B36 !important;
+    border: none !important;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.feedback-section .btn-success:hover{
+    background-color: #a85f24 !important;
+    transform: scale(1.03);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    .feedback-section{
+        padding: 25px;
+    }
+
+    .feedback-section h2{
+        font-size: 2rem;
+    }
+
+    .feedback-section .rating-group{
+        gap: 10px;
+    }
+}
