@@ -369,4 +369,80 @@ section p{
     }
 }
 
+/* CONTACT PAGE */
+body{
+    background-color: #FFF8E7;
+}
 
+/* CONTACT SECTION */
+.contact-section{
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* HEADING */
+.contact-section h2{
+    text-align: center;
+    color: #4E342E;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* TABLE */
+.contact-section table{
+    width: 100% !important;
+    border-collapse: collapse;
+}
+
+/* TABLE CELLS */
+.contact-section th,
+.contact-section td{
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* TABLE HEADINGS */
+.contact-section th{
+    background-color: #C97B36;
+    color: white;
+    width: 35%;
+}
+
+/* TABLE DATA */
+.contact-section td{
+    background-color: #fafafa;
+    color: #444;
+}
+
+/* ROW HOVER EFFECT */
+.contact-section tr:hover td{
+    background-color: #f5ede5;
+}
+
+/* RESPONSIVE DESIGN */
+@media(max-width:768px){
+
+    .contact-section{
+        padding: 20px;
+    }
+
+    .contact-section h2{
+        font-size: 2rem;
+    }
+
+    .contact-section th,
+    .contact-section td{
+        display: block;
+        width: 100%;
+    }
+
+    .contact-section th{
+        margin-top: 10px;
+    }
+}
